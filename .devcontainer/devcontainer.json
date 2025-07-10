@@ -3,8 +3,7 @@
   "hostRequirements": {
     "cpus": 4
   },
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm install",
+  "postCreateCommand": "npm install",
   "customizations": {
     "codespaces": {
       "openFiles": [
